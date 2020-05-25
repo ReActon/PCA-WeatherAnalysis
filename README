@@ -1,0 +1,21 @@
+Created by Ryan Acton on 17/07/2020
+
+README for Assigment 5 - PCA with average rainfall data
+
+The data to be used in this program comes from the file values.hpp which has the two separated values
+for the rainfall from January and June. The file was not created by me.
+The Eigen Library was used in order to calculate and set up a Covariance Matrix
+and calculate the Eigenvalues and Eigenvectors for the Principal Components discovered.
+
+To Build and Run:
+
+Typing "make" in console will build the project.
+It can be run by typing "./pca" which is the name of the executable created by the Makefile
+
+Furthermore the .o files and executable as well as the answers text file can be removed
+from the folder by typing "make clean".
+
+The answers to the questions set in the Assignment brief are written to a file
+that is created, called answers.txt.
+
+
